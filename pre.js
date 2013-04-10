@@ -1,4 +1,5 @@
-((typeof exports !== "undefined" && exports !== null) ? exports : this)["Viz"] = function(src, format) {
+(define(function() {
+function Viz(src, format) {
   var Module = {};
   Module["return"] = "";
   Module["print"] = function(text) {
